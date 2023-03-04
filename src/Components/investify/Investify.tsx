@@ -22,10 +22,30 @@ const Right = styled.div`
   display: flex;
   align-items: center;
 `;
-
 const Left = styled.div`
+  width: 63%;
   display: flex;
+  height: 150px;
+  border: 1px solid #e2e8f0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 15px;
   flex-direction: column;
+  justify-content: center;
+  h3 {
+    color: #083e9e;
+    font-weight: 700;
+    font-family: U8, sans-serif;
+    margin: 0;
+    font-size: 40px;
+  }
+  p {
+    color: #4a5568;
+    font-family: Karla, sans-serif;
+    font-size: 12px;
+    margin: 0;
+  }
 `;
 const Wrapper = styled.div`
   width: 92%;
