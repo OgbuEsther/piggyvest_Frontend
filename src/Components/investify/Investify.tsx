@@ -7,7 +7,10 @@ const Investify = () => {
       <Container>
         <Wrapper>
           <Top>
-            <Left></Left>
+            <Left>
+              <Top2></Top2>
+              <Bottom></Bottom>
+            </Left>
             <Right></Right>
           </Top>
         </Wrapper>
@@ -46,6 +49,18 @@ const Left = styled.div`
     font-size: 12px;
     margin: 0;
   }
+`;
+
+const Top2 = styled.div`
+  width: 100%;
+  height: 80%;
+  background-color: red;
+`;
+
+const Bottom = styled.div`
+  width: 100%;
+  height: 20%;
+  background-color: black;
 `;
 const Wrapper = styled.div`
   width: 92%;
