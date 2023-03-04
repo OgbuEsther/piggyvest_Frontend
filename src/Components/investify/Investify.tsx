@@ -10,7 +10,7 @@ const Investify = () => {
             <Left>
               <Top2>
                 <p>TOTAL BALANCE</p>
-                <h1>0.00</h1>
+                <h3>0.00</h3>
               </Top2>
               <Bottom>
                 <p>Learn More</p>
@@ -18,7 +18,7 @@ const Investify = () => {
             </Left>
             <Right>
               <h6>EXPECTED ROI</h6>
-              <h1>Up to 25%</h1>
+              <h3>Up to 25%</h3>
               <p>Per Annum</p>
             </Right>
           </Top>
@@ -51,8 +51,10 @@ const Right = styled.div`
   p {
     margin: 0;
   }
-  h1 {
+  h3 {
     margin: 0;
+    color: #083e9e;
+    font-weight: 300;
   }
 `;
 const Left = styled.div`
