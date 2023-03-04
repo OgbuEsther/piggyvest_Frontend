@@ -16,7 +16,11 @@ const Investify = () => {
                 <p>Learn More</p>
               </Bottom>
             </Left>
-            <Right></Right>
+            <Right>
+              <h6>EXPECTED ROI</h6>
+              <h1>Up to 25%</h1>
+              <p>Per Annum</p>
+            </Right>
           </Top>
           <MainBottom></MainBottom>
         </Wrapper>
@@ -32,12 +36,24 @@ const MainBottom = styled.div``;
 const Right = styled.div`
   width: 30%;
   display: flex;
-  height: 100px;
+  height: 110px;
+  justify-content: center;
+  flex-direction: column;
   border: 1px solid #e2e8f0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   padding-left: 15px;
+
+  h6 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+  h1 {
+    margin: 0;
+  }
 `;
 const Left = styled.div`
   width: 60%;
@@ -68,7 +84,7 @@ const Left = styled.div`
 const Top2 = styled.div`
   width: 100%;
   height: 60%;
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   /* align-items: center; */
   justify-content: center;
