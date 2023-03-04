@@ -8,8 +8,13 @@ const Investify = () => {
         <Wrapper>
           <Top>
             <Left>
-              <Top2></Top2>
-              <Bottom></Bottom>
+              <Top2>
+                <p>TOTAL BALANCE</p>
+                <h1>0.00</h1>
+              </Top2>
+              <Bottom>
+                <p>Learn More</p>
+              </Bottom>
             </Left>
             <Right></Right>
           </Top>
