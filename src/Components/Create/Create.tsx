@@ -11,12 +11,11 @@ import { useForm } from "react-hook-form";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useMutation } from "@tanstack/react-query";
 import { createUser } from "../ApiCalls/ApiCall";
-import { UserData } from "../AllInterfaces";
+
 import { UseAppDispach } from "../Global/Stroe";
-import axios from "axios";
+
 import { User } from "../Global/ReduxState";
 
-const localUrl = "http://localhost:6400";
 const Create = () => {
   const dispatch = UseAppDispach();
   const navigate = useNavigate();
@@ -39,7 +38,7 @@ const Create = () => {
   const {
     handleSubmit,
     formState: { errors },
-    reset,
+
     register,
   } = useForm<formData>({
     resolver: yupResolver(schema),
