@@ -47,7 +47,7 @@ const Left = styled.div`
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   flex-direction: column;
   justify-content: center;
   h3 {
@@ -67,14 +67,24 @@ const Left = styled.div`
 
 const Top2 = styled.div`
   width: 100%;
-  height: 70%;
-  background-color: red;
+  height: 60%;
+  margin-top: 10px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-left: 10px;
+  flex-direction: column;
+  /* background-color: red; */
 `;
 
 const Bottom = styled.div`
   width: 100%;
-  height: 30%;
-  background-color: black;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+  /* background-color: black; */
 `;
 const Wrapper = styled.div`
   width: 92%;
