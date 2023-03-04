@@ -25,12 +25,12 @@ export const createUser = async ({
 
 export const GetOneUser = async (id: any) => {
   return await axios
-    .get(`${localUrl}/api/user/${id}/userdetail`)
+    .get(`${localUrl}/api/user/${id}/getone`)
     .then((res) => res.data);
 };
 
 export const TransferMoney = async (data: any, id: any) => {
   return await axios
-    .post(`${localUrl}/api/user/sendmoney/${id}/${id}`, data)
+    .post(`${localUrl}/api/user/transaction/${id}/${id}`, data)
     .then((res) => res.data);
 };
