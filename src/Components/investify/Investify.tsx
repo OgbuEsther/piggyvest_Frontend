@@ -13,6 +13,7 @@ const Investify = () => {
             </Left>
             <Right></Right>
           </Top>
+          <MainBottom></MainBottom>
         </Wrapper>
       </Container>
     </div>
@@ -21,12 +22,20 @@ const Investify = () => {
 
 export default Investify;
 
+const MainBottom = styled.div``;
+
 const Right = styled.div`
+  width: 30%;
   display: flex;
-  align-items: center;
+  height: 100px;
+  border: 1px solid #e2e8f0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 15px;
 `;
 const Left = styled.div`
-  width: 63%;
+  width: 60%;
   display: flex;
   height: 150px;
   border: 1px solid #e2e8f0;
@@ -53,13 +62,13 @@ const Left = styled.div`
 
 const Top2 = styled.div`
   width: 100%;
-  height: 80%;
+  height: 70%;
   background-color: red;
 `;
 
 const Bottom = styled.div`
   width: 100%;
-  height: 20%;
+  height: 30%;
   background-color: black;
 `;
 const Wrapper = styled.div`
@@ -74,6 +83,7 @@ const Top = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 `;
 const Container = styled.div`
   width: calc(100% - 19%);
