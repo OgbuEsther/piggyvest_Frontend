@@ -12,6 +12,7 @@ import Piggybank from "./SavingsDashboard/Piggybank";
 import Flex from "./SavingsDashboard/Flex";
 import Safelock from "./SavingsDashboard/Safelock";
 import Target from "./SavingsDashboard/Target";
+import InvestDashboard from "./investify/InvestDashboard";
 
 const Allroutes = () => {
   let element = useRoutes([
@@ -30,6 +31,10 @@ const Allroutes = () => {
     {
       path: "/dashboard",
       element: <Dashboard />,
+    },
+    {
+      path: "/invest",
+      element: <InvestDashboard />,
     },
     {
       path: "/savings",
