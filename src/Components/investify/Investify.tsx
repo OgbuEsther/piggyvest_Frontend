@@ -88,11 +88,9 @@ const Top2 = styled.div`
   height: 60%;
   margin-top: 20px;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   margin-left: 10px;
   flex-direction: column;
-  /* background-color: red; */
 `;
 
 const Bottom = styled.div`
@@ -102,13 +100,11 @@ const Bottom = styled.div`
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
-  /* background-color: black; */
 `;
 const Wrapper = styled.div`
   width: 92%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   padding-top: 90px;
 `;
@@ -123,5 +119,4 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   margin-left: 290px;
-  /* background-color: red; */
 `;
